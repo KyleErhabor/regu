@@ -1,0 +1,8 @@
+{
+  "throttle": 3600000,
+  "install": { "include": ["^package\\.json$", "^\\.env$"] },
+  "restart": {
+      "include": ["\\.js$", "\\.json$"],
+      "exclude": ["^dist/"]
+  }
+}
